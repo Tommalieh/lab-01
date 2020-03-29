@@ -1,0 +1,68 @@
+/* for mobile view of screen widths (480px - 767px) */
+
+@media all and (min-width: 480px) {
+
+    header{
+        width: 479px;
+        height: 75px;
+        line-height: 75px;
+        text-align: center;
+        border: 0.5px solid #a7a7a7;
+        border-color: black;
+    }
+
+    aside{
+        width: 479px;
+        height: 150px;
+        text-align: center;
+        line-height: 150px;
+        border-bottom: 0.5px solid #a7a7a7;
+        border-left: 0.5px solid #a7a7a7;
+        border-right: 0.5px solid #a7a7a7;
+        border-color: black;
+    
+    }
+
+    footer{
+        width: 479px;
+        height: 80px;
+        text-align: center;
+        line-height: 75px;
+        clear: left;
+        border-bottom: 0.5px solid #a7a7a7;
+        border-left: 0.5px solid #a7a7a7;
+        border-right: 0.5px solid #a7a7a7;
+        border-color: black;
+    }
+}
+
+
+/* for Desktop view of screen widths of 768px and more */
+
+@media all and (min-width: 768px) {
+
+    aside{
+        width: 199px;
+        height: 600px;
+        line-height: 600px;
+        float: left;
+    }
+    
+    
+    header{
+        width: 959px;
+        height: 100px;
+        line-height: 100px;
+    }
+
+    footer{
+        width: 759.5px;
+        height: 149px;
+        line-height: 149.5px;
+        border-left: 0;
+        float: right;
+        clear: none;
+        margin-bottom: 1%;
+    }
+
+}
